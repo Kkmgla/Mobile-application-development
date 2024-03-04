@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MobileAppDevPractice4</string>
+    <string name="scrollview">ScrollView в Android Studio и Java
+Создание ScrollView программно в коде MainActivity:
+package com.example.viewapp;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.ViewGroup;
+import android.widget.ScrollView;
+import android.widget.TextView;
+public class MainActivity extends AppCompatActivity {
+
+@Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(savedInstanceState);
+ //setContentView(R.layout.activity_main);
+ ScrollView scrollView = new ScrollView(this);
+ TextView textView = new TextView(this);
+ textView.setText("Lorem Ipsum is simply dummy text of the printing and
+typesetting industry...like Aldus PageMaker including versions of Lorem Ipsum.");
+ textView.setLayoutParams(new ViewGroup.LayoutParams
+ (ViewGroup.LayoutParams.WRAP_CONTENT,
+ViewGroup.LayoutParams.WRAP_CONTENT));
+ textView.setTextSize(26);
+ scrollView.addView(textView);
+ setContentView(scrollView)
+     android:layout_alignEnd: выравнивает элемент по линии, у которой
+завершается другой элемент с указанным Id
+• android:layout_alignTop: выравнивает элемент по верхней границе
+другого элемента с указанным Id
+• android:layout_alignBaseline: выравнивает базовую линию элемента
+по базовой линии другого элемента с указанным Id
+• android:layout_alignParentBottom: если атрибут имеет значение
+true, то элемент прижимается к нижней границе контейнера
+• android:layout_alignParentRight: если атрибут имеет значение true,
+то элемент прижимается к правому краю контейнера
+• android:layout_alignParentLeft: если атрибут имеет значение true, то
+элемент прижимается к левому краю контейнера
+• android:layout_alignParentStart: если атрибут имеет значение true,
+то элемент прижимается к начальному краю контейнера (при
+левосторонней ориентации текста - левый край)
+• android:layout_alignParentEnd: если атрибут имеет значение true, то
+элемент прижимается к конечному краю контейнера (при
+левосторонней ориентации текста - правый край)
+
+    </string>
+</resources>
