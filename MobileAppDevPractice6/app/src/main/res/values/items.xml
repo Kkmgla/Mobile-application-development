@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="items">
+        <item quantity="one">%d Айтем</item>
+        <item quantity="few">%d Айтема</item>
+        <item quantity="many">%d Айтемов</item>
+    </plurals>
+
+</resources>
