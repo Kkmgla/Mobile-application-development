@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialog_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вопрос здесь"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Да"/>
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
