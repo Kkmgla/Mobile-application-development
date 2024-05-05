@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MobileAppDevPractice11</string>
+    <string name="notify">Notify</string>
+    <string name="delayed_notification">Delayed notification</string>
+</resources>
