@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/send_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить данные через провайдер контента"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/convert_to_json_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Преобразовать данные в JSON и сохранить в файл"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/go_to_second_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти на вторую активность"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
